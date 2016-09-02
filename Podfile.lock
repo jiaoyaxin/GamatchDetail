@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (3.4.2)
+  - PathKit (0.6.0)
+  - SQLite.swift (0.10.1)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4.2)
+  - PathKit (~> 0.6.0)
+  - SQLite.swift (~> 0.10.1)
+  - SwiftyJSON (~> 2.3.2)
+
+SPEC CHECKSUMS:
+  Alamofire: 6aa33201d20d069e1598891cf928883ff1888c7a
+  PathKit: b224b6d2c4e75b87f08f45e1c0c610a3195c94e5
+  SQLite.swift: 6a6e4b034efc317ce4e203b6af2d3024fee2b570
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 5676c46e5d8b60e7cc7b059b82a84acfe598b20d
+
+COCOAPODS: 1.0.1
