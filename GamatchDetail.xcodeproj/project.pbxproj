@@ -13,6 +13,7 @@
 		A63F1D431D7968F7002CC5BC /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A63F1D3A1D7968F7002CC5BC /* HomeView.storyboard */; };
 		A63F1D441D7968F7002CC5BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A63F1D3B1D7968F7002CC5BC /* LaunchScreen.storyboard */; };
 		A63F1D461D7968F7002CC5BC /* SettingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A63F1D3D1D7968F7002CC5BC /* SettingView.storyboard */; };
+		A64BA1F01D7D7380000FCDA4 /* HttpHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64BA1EF1D7D7380000FCDA4 /* HttpHelper.swift */; };
 		A6758BC61D79715B00737395 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6758BC51D79715B00737395 /* BaseViewController.swift */; };
 		A6758BC81D7971AB00737395 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6758BC71D7971AB00737395 /* BaseTableViewController.swift */; };
 		A6758BCE1D797F2600737395 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6758BCC1D797F2600737395 /* BaseNavigationController.swift */; };
@@ -20,6 +21,7 @@
 		A6758BD71D79831700737395 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6758BD61D79831700737395 /* SettingViewController.swift */; };
 		A6758BD91D79837900737395 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6758BD81D79837900737395 /* HomeViewController.swift */; };
 		A683B3391D79895700F53C89 /* Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = A683B3381D79895700F53C89 /* Default.swift */; };
+		A683B33F1D7D624500F53C89 /* UrlString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A683B33E1D7D624500F53C89 /* UrlString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,14 +35,15 @@
 		A63F1D3A1D7968F7002CC5BC /* HomeView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
 		A63F1D3B1D7968F7002CC5BC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A63F1D3D1D7968F7002CC5BC /* SettingView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingView.storyboard; sourceTree = "<group>"; };
+		A64BA1EF1D7D7380000FCDA4 /* HttpHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpHelper.swift; sourceTree = "<group>"; };
 		A6758BC51D79715B00737395 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		A6758BC71D7971AB00737395 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		A6758BCC1D797F2600737395 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		A6758BCF1D797F5600737395 /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
-		A6758BD31D79809100737395 /* UrlString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UrlString.h; sourceTree = "<group>"; };
 		A6758BD61D79831700737395 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		A6758BD81D79837900737395 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		A683B3381D79895700F53C89 /* Default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Default.swift; sourceTree = "<group>"; };
+		A683B3381D79895700F53C89 /* Default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Default.swift; sourceTree = "<group>"; };
+		A683B33E1D7D624500F53C89 /* UrlString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = UrlString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,7 @@
 				DD63E8F6BF09E2BC7738F75D /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		A63F1D1D1D796870002CC5BC /* Products */ = {
 			isa = PBXGroup;
@@ -77,8 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				A63F1D3E1D7968F7002CC5BC /* Setting */,
-				A63F1D341D7968F7002CC5BC /* Class */,
 				A63F1D371D7968F7002CC5BC /* Helper */,
+				A63F1D341D7968F7002CC5BC /* Class */,
 				A63F1D381D7968F7002CC5BC /* SBView */,
 				A63F1D331D7968F7002CC5BC /* AppDelegate.swift */,
 				A63F1D2D1D796870002CC5BC /* Info.plist */,
@@ -99,6 +103,7 @@
 		A63F1D371D7968F7002CC5BC /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				A64BA1EF1D7D7380000FCDA4 /* HttpHelper.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -117,8 +122,8 @@
 		A63F1D3E1D7968F7002CC5BC /* Setting */ = {
 			isa = PBXGroup;
 			children = (
-				A6758BD31D79809100737395 /* UrlString.h */,
 				A683B3381D79895700F53C89 /* Default.swift */,
+				A683B33E1D7D624500F53C89 /* UrlString.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -307,10 +312,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6758BD01D797F5600737395 /* BaseTabBarViewController.swift in Sources */,
+				A64BA1F01D7D7380000FCDA4 /* HttpHelper.swift in Sources */,
 				A6758BC61D79715B00737395 /* BaseViewController.swift in Sources */,
 				A6758BCE1D797F2600737395 /* BaseNavigationController.swift in Sources */,
 				A6758BC81D7971AB00737395 /* BaseTableViewController.swift in Sources */,
 				A63F1D3F1D7968F7002CC5BC /* AppDelegate.swift in Sources */,
+				A683B33F1D7D624500F53C89 /* UrlString.swift in Sources */,
 				A683B3391D79895700F53C89 /* Default.swift in Sources */,
 				A6758BD91D79837900737395 /* HomeViewController.swift in Sources */,
 				A6758BD71D79831700737395 /* SettingViewController.swift in Sources */,

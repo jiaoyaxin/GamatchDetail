@@ -18,7 +18,7 @@ let DefaultLoadingImage = ""
 let MAIN_COLOR = "33475f"
 
 // eg:"33475f" or "#33475f"
-func COLOR16 ( Color_Value:NSString) -> UIColor {
+func COLOR16 (Color_Value:NSString) -> UIColor {
     
     var  Str :NSString = Color_Value.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet()).uppercaseString
     if Color_Value.hasPrefix("#"){
