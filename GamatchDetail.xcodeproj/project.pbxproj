@@ -22,6 +22,7 @@
 		A6758BD91D79837900737395 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6758BD81D79837900737395 /* HomeViewController.swift */; };
 		A683B3391D79895700F53C89 /* Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = A683B3381D79895700F53C89 /* Default.swift */; };
 		A683B33F1D7D624500F53C89 /* UrlString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A683B33E1D7D624500F53C89 /* UrlString.swift */; };
+		A6C2D8231D7EC4580089A394 /* HomeViewControllerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C2D8221D7EC4580089A394 /* HomeViewControllerRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		A6758BD81D79837900737395 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A683B3381D79895700F53C89 /* Default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Default.swift; sourceTree = "<group>"; };
 		A683B33E1D7D624500F53C89 /* UrlString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = UrlString.swift; sourceTree = "<group>"; };
+		A6C2D8221D7EC4580089A394 /* HomeViewControllerRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewControllerRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,9 +168,18 @@
 		A6758BD51D7982E800737395 /* 主页 */ = {
 			isa = PBXGroup;
 			children = (
+				A6C2D8211D7EC4010089A394 /* 接口 */,
 				A6758BD81D79837900737395 /* HomeViewController.swift */,
 			);
 			path = "主页";
+			sourceTree = "<group>";
+		};
+		A6C2D8211D7EC4010089A394 /* 接口 */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2D8221D7EC4580089A394 /* HomeViewControllerRequest.swift */,
+			);
+			name = "接口";
 			sourceTree = "<group>";
 		};
 		DD63E8F6BF09E2BC7738F75D /* Frameworks */ = {
@@ -316,6 +327,7 @@
 				A6758BC61D79715B00737395 /* BaseViewController.swift in Sources */,
 				A6758BCE1D797F2600737395 /* BaseNavigationController.swift in Sources */,
 				A6758BC81D7971AB00737395 /* BaseTableViewController.swift in Sources */,
+				A6C2D8231D7EC4580089A394 /* HomeViewControllerRequest.swift in Sources */,
 				A63F1D3F1D7968F7002CC5BC /* AppDelegate.swift in Sources */,
 				A683B33F1D7D624500F53C89 /* UrlString.swift in Sources */,
 				A683B3391D79895700F53C89 /* Default.swift in Sources */,
